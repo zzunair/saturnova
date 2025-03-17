@@ -1,0 +1,11 @@
+.icon-text-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.icon-text-service-card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 30px;
+}

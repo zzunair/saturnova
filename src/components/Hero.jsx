@@ -1,4 +1,3 @@
-import React from 'react';
 import heroImage from '../../public/images/hero.png';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -24,7 +23,8 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero__image">
-            <Image src={heroImage} alt="Hero" />
+            <img src="/images/hero.png" alt="hero" />
+            {/* <Image src="/images/hero.png" alt="hero" height={500} width={500} /> */}
         </div>
       </div>
     </div>
