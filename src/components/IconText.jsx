@@ -1,24 +1,21 @@
 
 import Image from 'next/image';
-import architect from '../../public/Images/cube1.png';
-import engineer from "../../public/Images/software-application.png";
-import reeningneer from "../../public/Images/technical-support.png";
 import '../Styles/IconText.css';
 
 export default function IconText() {
     const services = [
         {
-          icon: architect, // Make sure to add these icons to your public folder
+          icon: "/Images/cube1.png", // Make sure to add these icons to your public folder
           title: 'Architect your Solution',
           description: 'Our team zeroes in on your operational, technological, and strategic challenges through an in-depth understanding of your business. We design a strategic roadmap to guide your result-oriented goals.'
         },
         {
-          icon: engineer,
+          icon: "/Images/software-application.png",
           title: 'Engineer your Solution',
           description: 'We promptly put together your nearshore engineering dream team to fulfill your specific requirements. We create the most elegant solution for your difficulties by combining our deep tech expertise, Top 1% Tech Talent, and industry-specific experience.'
         },
         {
-          icon: reeningneer,
+          icon: "/Images/technical-support.png",
           title: 'ReEngineer your Business Process',
           description: 'Bolster by our team, your digital transformation swiftly gains speed and evolves into a digital acceleration. This process places the foundation for a more efficient and strong business that can meet demands at scale.'
         }

@@ -1,5 +1,3 @@
-import heroImage from '../../public/images/hero.png';
-import Image from 'next/image';
 import Link from 'next/link';
 import '../Styles/Hero.css';
 
@@ -17,14 +15,16 @@ export default function Hero() {
               testers, and leaders. We are setup to deliver long term solutions,
               or scale to different needs quickly.
             </p>
-            <Link href="/build-team" className="contact-button global-btn mt-20">
+            <Link
+              href="/build-team"
+              className="contact-button global-btn mt-20"
+            >
               Build a Team
             </Link>
           </div>
         </div>
         <div className="hero__image">
-            <img src="/images/hero.png" alt="hero" />
-            {/* <Image src="/images/hero.png" alt="hero" height={500} width={500} /> */}
+          <img src="/images/hero.png" alt="hero" />
         </div>
       </div>
     </div>
