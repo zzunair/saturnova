@@ -1,6 +1,7 @@
-import Link from 'next/link';
+
+import heroImage from '../../public/images/hero.png';
 import Image from 'next/image';
-import hero from "../../public/images/hero.png"
+import Link from 'next/link';
 import '../Styles/Hero.css';
 
 export default function Hero() {
@@ -17,16 +18,13 @@ export default function Hero() {
               testers, and leaders. We are setup to deliver long term solutions,
               or scale to different needs quickly.
             </p>
-            <Link
-              href="/build-team"
-              className="contact-button global-btn mt-20"
-            >
+            <Link href="/build-team" className="contact-button global-btn mt-20">
               Build a Team
             </Link>
           </div>
         </div>
         <div className="hero__image">
-          <Image src={hero} alt="hero" />
+            <Image src={heroImage} alt="Hero" />
         </div>
       </div>
     </div>
