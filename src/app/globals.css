@@ -1,0 +1,181 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-color: #080A52;
+  --secondary-color: #ED2188;
+  --gradient-color: linear-gradient(to right, #ED2188, #080A52);
+  --background-color: #F9F9F9;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  /* color: var(--foreground); */
+  /* background: var(--background); */
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* typography */
+
+
+h1{
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+h2{
+  font-size: 46px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+h3{
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+h4{
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+p{
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+/* margins */
+
+.mt-10{
+  margin-top: 10px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mt-40{
+  margin-top: 40px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.mt-60{
+  margin-top: 60px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.mb-60{
+  margin-bottom: 60px;
+}
+/* padding */
+.pt-10{
+  padding-top: 10px;
+}
+.pt-20{
+  padding-top: 20px;
+}
+.pt-30{
+  padding-top: 30px;
+}
+.pt-40{
+  padding-top: 40px;
+}
+.pt-50{
+  padding-top: 50px;
+}
+.pt-60{
+  padding-top: 60px;
+}
+.pb-10{
+  padding-bottom: 10px;
+}
+.pb-20{
+  padding-bottom: 20px;
+}
+.pb-30{
+  padding-bottom: 30px;
+}
+.pb-40{
+  padding-bottom: 40px;
+}
+.pb-50{
+  padding-bottom: 50px;
+}
+.pb-60{
+  padding-bottom: 60px;
+}
+
+
+
+
+.global-btn{
+  background: var(--gradient-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.global-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-container{
+  max-width: 1498px;
+  margin: 0 auto;
+}
+
+.custom-container-fluid{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+

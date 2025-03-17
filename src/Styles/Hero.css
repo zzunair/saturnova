@@ -1,0 +1,28 @@
+.hero__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: relative;
+}
+
+.hero__content{
+    background-color: var(--white);
+    position: relative;
+    height: 100%;
+}
+
+.hero__content_inner{
+    background-color: var(--white-color);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    margin-right: -100px;
+    border-radius: 0px 60px 0px 0px;
+    padding: 20px 30px 20px 0;
+}
+
+.hero__content_inner p{
+    font-size: 20px;
+    line-height: 1.3;
+}
