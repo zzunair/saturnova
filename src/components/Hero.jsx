@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import hero from "../../public/images/hero.png"
 import '../Styles/Hero.css';
 
 export default function Hero() {
@@ -24,7 +26,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero__image">
-          <img src="/images/hero.png" alt="hero" />
+          <Image src={hero} alt="hero" />
         </div>
       </div>
     </div>
